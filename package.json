@@ -1,0 +1,26 @@
+{
+  "name": "poultryfolk-bot",
+  "version": "1.0.0",
+  "description": "Good evening, chum",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Virtute/poultryfolk-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Virtute/poultryfolk-bot/issues"
+  },
+  "homepage": "https://github.com/Virtute/poultryfolk-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
