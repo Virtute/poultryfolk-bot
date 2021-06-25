@@ -12,6 +12,7 @@ client.on("ready", () => {
 })
 
 client.on("message", msg => {
+    /*
     if (msg.content === "hey") {
         msg.reply("hi there")
     }
@@ -23,6 +24,17 @@ client.on("message", msg => {
     }
     else if (msg.content === "gimme mod") {
         msg.member.roles.add("857782241260994621");
+    }
+    */
+    if (msg.content === "!join orangutanglers") {
+        msg.member.roles.add("857785068692439040");
+        msg.reply("You have joined the Orangutanglers");
+        msg.react(":orangutan:");
+    }
+    else if (msg.content === "!join poultryfolk") {
+        msg.member.roles.add("857784945329045554");
+        msg.reply("You have joined the Poultryfolk");
+        msg.react(":chicken:");
     }
 })
 
